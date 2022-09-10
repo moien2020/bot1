@@ -1,21 +1,4 @@
-while True:
-	ennam = input("نام خانوادگی خود را وارد کنید: \n")
-	break
-import random
 
-maxn = 472
-n = random.randint(472, maxn)
-print('Hello ' + ennam + ' sweetie-pie')
-print('به آذرخش بات خوش امدید!!' )
-guess = None
-while guess != n:
-    print('رمز را از سازنده ربات بگیرید')
-    guess = int(input('رمز را به شماره وارد کنید :	\n'))
-    if guess > n:
-        print('درست نیست')
-    if guess < n:
-        print('این رمز خیلی کوتاه است اصلا ربطی ندارد.')
-        
 from requests import get
 from re import findall
 from rubika.tools import Tools
